@@ -9,10 +9,6 @@ Splunk supports all major operating systems and provides a straightforward insta
 Typically, Splunk is downloaded from the official website:  
 [Splunk Enterprise Download](https://www.splunk.com/en_us/download/splunk-enterprise.html?locale=en_us)
 
-At the time of writing, the latest available version is **9.0.3**.
-
-**Note:** You are not required to create an account or manually download Splunk, as all necessary installation files are already available in the lab environment.
-
 * * *
 
 1\. Verify Installation Files
@@ -27,8 +23,7 @@ CopyEdit
 `cd ~/Downloads/splunk
 ls` 
 
-**Expected output:**  
-\[Replace with actual screenshot link: screenshots/1\_splunk\_dls\_ls.png\]
+**Expected output:**  ![Installation Files](https://github.com/0xAll3nC/Splunk-Setting-Up-a-Home-SOC-Lab/blob/main/screenshots/1_splunk_dls_ls.png)
 
 The directory should contain the following files:
 
@@ -65,8 +60,7 @@ CopyEdit
 
 This will unpack Splunk into a new directory named `splunk`.
 
-**Expected output:**  
-\[Replace with actual screenshot link: screenshots/2\_splunk\_dls\_tar.png\]
+**Expected output:**  ![Extracting Files](https://github.com/0xAll3nC/Splunk-Setting-Up-a-Home-SOC-Lab/blob/main/screenshots/2_splunk_dls_tar.png)
 
 * * *
 
@@ -89,8 +83,7 @@ CopyEdit
 
 `ls /opt/` 
 
-**Expected output:**  
-\[Replace with actual screenshot link: screenshots/3\_splunk\_dls\_ls\_dir.png\]
+**Expected output:**  ![Splunk Directory](https://github.com/0xAll3nC/Splunk-Setting-Up-a-Home-SOC-Lab/blob/main/screenshots/3_splunk_dls_ls_dir.png)
 
 * * *
 
@@ -111,11 +104,10 @@ Since this is the first time launching Splunk, you will be prompted to create an
 *   Enter a username: `splunkadmin`
 *   Create and confirm a password
 
-**Expected output:**  
-\[Replace with actual screenshot link: screenshots/4\_splunk\_dls\_start.png\]
+**Expected output:**  ![Starting Splunk](https://github.com/0xAll3nC/Splunk-Setting-Up-a-Home-SOC-Lab/blob/main/screenshots/4_splunk_dls_start.png)
 
 Once Splunk starts, it will be accessible at:  
-`http://coffely:8000`
+`http://coffely:8000` or `http://127.0.0.1:8000/`
 
 * * *
 
@@ -140,8 +132,7 @@ CopyEdit
 
 Login with the **admin credentials** created earlier.
 
-**Expected login screen:**  
-\[Replace with actual screenshot link: screenshots/5\_splunk\_dls\_login.png\]
+**Expected login screen:**  ![Splunk Login](https://github.com/0xAll3nC/Splunk-Setting-Up-a-Home-SOC-Lab/blob/main/screenshots/5_splunk_dls_login.png)
 
 * * *
 
