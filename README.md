@@ -22,7 +22,7 @@ By the end of this setup, we will have a functional **SOC lab** capable of colle
 
 ## About Splunk and the Lab  
 
-As explained in the **Splunk Basics** training, **Splunk** is a **SIEM** solution that allows us to collect, analyze, and correlate logs in a centralized server in real time.  
+**Splunk** is a **SIEM** solution that allows us to collect, analyze, and correlate logs in a centralized server in real time.  
 
 This lab will guide you through installing **Splunk** on **Linux** and **Windows**, configuring different log sources, and setting up data ingestion. Each lab covers the following topics:  
 
