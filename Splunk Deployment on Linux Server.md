@@ -114,21 +114,9 @@ Once Splunk starts, it will be accessible at:
 6\. Access Splunk Web Interface
 -------------------------------
 
-Open a web browser inside the virtual machine and navigate to:
+Open a web browser inside the virtual machine and navigate to: `http://coffely:8000` 
 
-arduino
-
-CopyEdit
-
-`http://coffely:8000` 
-
-Alternatively, if using an external connection, replace `coffely` with the **machine's IP address**:
-
-cpp
-
-CopyEdit
-
-`http://MACHINE_IP:8000` 
+Alternatively, if using an external connection, replace `coffely` with the **machine's IP address**: `http://MACHINE_IP:8000` 
 
 Login with the **admin credentials** created earlier.
 
