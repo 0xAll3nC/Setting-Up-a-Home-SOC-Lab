@@ -16,10 +16,6 @@ Typically, Splunk is downloaded from the official website:
 
 Splunk installers are located in `~/Downloads/splunk`. First, navigate to the directory and verify the contents using:
 
-bash
-
-CopyEdit
-
 `cd ~/Downloads/splunk
 ls` 
 
@@ -37,10 +33,6 @@ The directory should contain the following files:
 
 Before proceeding with the installation, switch to the **root user**:
 
-nginx
-
-CopyEdit
-
 `sudo su` 
 
 This ensures that all necessary permissions are granted for installation.
@@ -51,10 +43,6 @@ This ensures that all necessary permissions are granted for installation.
 ------------------------------
 
 Extract the Splunk installer package using the following command:
-
-nginx
-
-CopyEdit
 
 `tar xvzf splunk_installer.tgz` 
 
@@ -69,17 +57,9 @@ This will unpack Splunk into a new directory named `splunk`.
 
 To maintain a clean directory structure, move the extracted `splunk` folder to `/opt/`:
 
-bash
-
-CopyEdit
-
 `mv splunk /opt/` 
 
 Verify the move by listing the contents of `/opt/`:
-
-bash
-
-CopyEdit
 
 `ls /opt/` 
 
@@ -91,10 +71,6 @@ CopyEdit
 -----------------------------------
 
 Navigate to Splunk’s `bin` directory and start the service:
-
-bash
-
-CopyEdit
 
 `cd /opt/splunk/bin
 ./splunk start --accept-license` 
